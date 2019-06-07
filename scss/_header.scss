@@ -1,0 +1,80 @@
+#lq-header{
+   background-color: #0f0f0f;
+   .uk-navbar-nav{
+     >li{
+       >a{
+         @extend .lq-mh1;
+       }
+     }
+   }
+   .uk-navbar-left{
+     .uk-navbar-nav{
+       >li{
+         >a{
+           color: #a8b2d1;
+           font-size: 16px;
+           @extend .lq-font-utm-neutra-regular;
+           &:hover{
+             color: #FFFFFF;
+           }
+         }
+       }
+     }
+   }
+ }
+.lq-mh1{
+  min-height: 60px;
+}
+.lq-login-regis{
+  @extend .lq-mh1;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.regis-forgot{
+  text-transform: uppercase;
+  font-size: 9px;
+  margin-left: 25px;
+  margin-top: -3px;
+  color: #9f9fa0;
+  @extend .lq-font-utm-avo-regular;
+  a{
+    color: #9f9fa0;
+  }
+}
+.login-txt{
+  @extend .lq-font-utm-neutra-regular;
+  font-size: 20px;
+  margin-top: -5px !important;
+  display: inline-block;
+  a{
+    color: #ffd555 !important;
+  }
+}
+.lq-play{
+  @extend .lq-mh1;
+}
+.lq-box2{
+  padding: 0 10px;
+  span{
+    @extend .lq-font-utm-neutra-regular;
+    color: #000;
+    font-size: 10px;
+  }
+  .domain{
+    @extend .lq-font-utm-neutra-regular;
+    font-size: 20px;
+    color: #000;
+    margin-top: -10px;
+  }
+}
+.lq-box3{
+  padding: 0 5px;
+  background-color: #b78900;
+  color: #ffeca8;
+  @extend .lq-font-utm-neutra-regular;
+  div{
+    font-size: 10px;
+    line-height: 1.1;
+  }
+}

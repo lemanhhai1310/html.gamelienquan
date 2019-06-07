@@ -1,0 +1,37 @@
+.lq-content{
+  margin-top: -410px;
+  z-index: 2;
+  @media(max-width: 960px){
+    margin-top: -70px;
+  }
+}
+.lq-box1{
+  border: 2px solid #b18130;
+}
+.lq-nav1{
+  margin-left: 0 !important;
+  li{
+    padding-left: 0;
+    &.uk-active{
+      a{
+        background-color: #ffc348 !important;
+        color: #000 !important;
+      }
+    }
+    a{
+      @extend .lq-font-utm-neutra-regular;
+      background-color: #333e50 !important;
+      color: #a8b2d1 !important;
+      font-size: 11px !important;
+      padding: 5px 12px !important;
+      line-height: 1;
+    }
+  }
+}
+$w1: 6px;
+#lq-block1{
+  margin-left: -$w1 !important;
+  >*{
+    padding-left: $w1;
+  }
+}
