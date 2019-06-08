@@ -15,31 +15,6 @@
     <script src="assets/uikit-3.1.5/js/uikit-icons.min.js"></script>
 </head>
 <body>
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-    window.fbAsyncInit = function () {
-        FB.init({
-            xfbml: true,
-            version: 'v3.2'
-        });
-    };
-
-    (function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-     attribution=setup_tool
-     page_id="2428809380682169"
-     theme_color="#24892d">
-</div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-background-cover" data-src="imgs/bg-body.jpg" uk-img>
     <?php include('menu_mobile1.php'); ?>
     <nav id="lq-header" class="uk-navbar-container" uk-navbar uk-sticky>
@@ -87,9 +62,9 @@
                                     <div>chơi <br> ngay</div>
                                 </div>
                             </div>
-                            <div class="lq-box2 uk-flex uk-flex-middle uk-flex-center uk-background-cover" data-src="imgs/bg1.png" uk-img>
+                            <div class="lq-box2 uk-width-expand uk-flex uk-flex-middle uk-flex-center uk-background-cover" data-src="imgs/bg1.png" uk-img>
                                 <div class="uk-text-center">
-                                    <span>LÀ GAME THỦ, SỢ GÌ MÀ KHÔNG THỬ</span>
+                                    <span class="uk-text-truncate">LÀ GAME THỦ, SỢ GÌ MÀ KHÔNG THỬ</span>
                                     <div class="domain">CHOILATRUNG.VN</div>
                                 </div>
                             </div>

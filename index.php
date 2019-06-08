@@ -31,7 +31,7 @@
                 'imgs/btn-lienquan4.png',
             );
             foreach ($data as $k1 => $v1){ ?>
-                <div>
+                <div class="uk-text-center">
                     <a href="#"><img src="<?= $v1 ?>" alt=""></a>
                 </div>
             <?php } ?>
@@ -50,7 +50,7 @@
                 <div>
                     <div class="uk-grid-collapse lq-label-box" uk-grid>
                         <div class="uk-width-auto c1 uk-background-norepeat" data-src="imgs/bg_label.png" uk-img>
-                            <label class="uk-text-truncate" for="">tướng dai ra hai</label>
+                            <label class="uk-text-truncate" for="">tướng</label>
                         </div>
                         <div class="uk-width-expand">
                             <input class="uk-input" type="text" placeholder="" value="NGỘ KHÔNG">
@@ -119,7 +119,7 @@
                 <?php } ?>
             </div>
         </div>
-        <div class="uk-padding-large uk-height-viewport uk-background-norepeat" style="background-size: 100%" data-src="imgs/bg2.png" uk-img>
+        <div class="lq-block1 uk-padding-large uk-height-viewport uk-background-norepeat" style="background-size: 100%" data-src="imgs/bg2.png" uk-img>
             <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small" uk-grid>
                 <?php
                 $data = array(
@@ -194,7 +194,7 @@
                                     <div class="lq-txt1">ĐÁ QUÝ: 1</div>
                                     <div class="lq-txt1">NGỌC 90: KHÔNG</div>
                                 </div>
-                                <div class="uk-flex uk-flex-row uk-flex-between uk-text-right uk-visible@s">
+                                <div class="uk-flex uk-flex-row uk-flex-between uk-text-right">
                                     <span class="lq-code uk-flex-1">MS#1029</span>
                                     <div class="lq-price uk-flex uk-flex-column uk-flex-right">
                                         <div><span>15.000.000</span> VNĐ</div>

@@ -41,12 +41,21 @@
   a{
     color: #9f9fa0;
   }
+  @media(max-width: 560px){
+    display: none;
+  }
 }
 .login-txt{
   @extend .lq-font-utm-neutra-regular;
   font-size: 20px;
   margin-top: -5px !important;
   display: inline-block;
+  @media(max-width: 560px){
+    font-size: 13px;
+  }
+  @media(max-width: 375px){
+    font-size: 9px;
+  }
   a{
     color: #ffd555 !important;
   }
@@ -60,12 +69,18 @@
     @extend .lq-font-utm-neutra-regular;
     color: #000;
     font-size: 10px;
+    @media(max-width: 560px){
+      font-size: 7px;
+    }
   }
   .domain{
     @extend .lq-font-utm-neutra-regular;
     font-size: 20px;
     color: #000;
     margin-top: -10px;
+    @media(max-width: 560px){
+      font-size: 14px;
+    }
   }
 }
 .lq-box3{
@@ -76,5 +91,8 @@
   div{
     font-size: 10px;
     line-height: 1.1;
+    @media(max-width: 560px){
+      font-size: 9px;
+    }
   }
 }
