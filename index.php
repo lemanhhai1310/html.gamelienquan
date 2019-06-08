@@ -204,11 +204,11 @@
                             </div>
                             <div class="uk-position-bottom uk-background-norepeat lq-line" style="height: 9px; background-size: 100%" data-src="imgs/bg_sp.png" uk-img></div>
                         </div>
-                        <div class="uk-grid-small uk-flex-center uk-child-width-1-2@s uk-margin-medium-bottom lq-bottom" uk-grid>
+                        <div class="uk-grid-small uk-flex-center uk-child-width-1-2 uk-margin-medium-bottom lq-bottom" uk-grid>
                             <div>
                                 <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img><span>xem chi tiết</span></a>
                             </div>
-                            <div class="uk-visible@s">
+                            <div>
                                 <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img><span>mua ngay</span></a>
                             </div>
                         </div>
