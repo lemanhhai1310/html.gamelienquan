@@ -1,7 +1,7 @@
 <div id="my-id" uk-offcanvas="overlay: true; mode: push">
     <div class="uk-offcanvas-bar uk-overflow-auto uk-flex uk-flex-column uk-padding-remove">
         <nav class="menu_m">
-            <div class="lq-login-regis">
+            <div class="lq-login-regis" hidden>
                 <div>
                     <img src="imgs/user1.png" alt="">
                     <span class="login-txt uk-text-uppercase"><a class="uk-link-reset" href="#">đăng nhập</a></span>

@@ -120,7 +120,7 @@
             </div>
         </div>
         <div class="uk-padding-large uk-height-viewport uk-background-norepeat" style="background-size: 100%" data-src="imgs/bg2.png" uk-img>
-            <div class="uk-child-width-1-4@m uk-grid-small" uk-grid>
+            <div class="uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small" uk-grid>
                 <?php
                 $data = array(
                     array(
@@ -186,7 +186,7 @@
                                     <?php } ?>
                                 </div>
                             </div>
-                            <div class="uk-child-width-1-2 uk-grid-match uk-grid-collapse" uk-grid>
+                            <div class="uk-child-width-1-2@s uk-grid-match uk-grid-collapse" uk-grid>
                                 <div>
                                     <div class="lq-txt1">RANK:  BẠCH KIM 1</div>
                                     <div class="lq-txt1">TƯỚNG: 25</div>
@@ -194,7 +194,7 @@
                                     <div class="lq-txt1">ĐÁ QUÝ: 1</div>
                                     <div class="lq-txt1">NGỌC 90: KHÔNG</div>
                                 </div>
-                                <div class="uk-flex uk-flex-row uk-flex-between uk-text-right">
+                                <div class="uk-flex uk-flex-row uk-flex-between uk-text-right uk-visible@s">
                                     <span class="lq-code uk-flex-1">MS#1029</span>
                                     <div class="lq-price uk-flex uk-flex-column uk-flex-right">
                                         <div><span>15.000.000</span> VNĐ</div>
@@ -204,11 +204,11 @@
                             </div>
                             <div class="uk-position-bottom uk-background-norepeat lq-line" style="height: 9px; background-size: 100%" data-src="imgs/bg_sp.png" uk-img></div>
                         </div>
-                        <div class="uk-grid-small uk-flex-center uk-child-width-1-2 uk-margin-medium-bottom lq-bottom" uk-grid>
+                        <div class="uk-grid-small uk-flex-center uk-child-width-1-2@s uk-margin-medium-bottom lq-bottom" uk-grid>
                             <div>
                                 <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img><span>xem chi tiết</span></a>
                             </div>
-                            <div>
+                            <div class="uk-visible@s">
                                 <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img><span>mua ngay</span></a>
                             </div>
                         </div>

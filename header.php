@@ -67,7 +67,7 @@
         <div class="uk-navbar-right">
 
             <ul class="uk-navbar-nav">
-                <li class="uk-visible@s">
+                <li>
                     <div class="lq-login-regis">
                         <div>
                             <img src="imgs/user1.png" alt="">
