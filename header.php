@@ -101,7 +101,7 @@
         </div>
 
     </nav>
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 400; autoplay: true;">
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 435; max-height: 872; autoplay: true;">
         <ul class="uk-slideshow-items">
             <li>
                 <img src="imgs/bg-slide2.png" alt="" uk-cover>

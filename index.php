@@ -42,80 +42,82 @@
             <span>danh mục</span>
             <div>game liên quân</div>
         </div>
-        <div class="lq-fillter uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small" uk-grid>
-            <div class="uk-width-1-2 uk-visible@m">
+        <div class="lq-padding">
+            <div class="lq-fillter uk-child-width-1-2 uk-child-width-1-4@m uk-grid-small" uk-grid>
+                <div class="uk-width-1-2 uk-visible@m">
 
-            </div>
-            <div>
-                <div class="uk-grid-collapse lq-label-box" uk-grid>
-                    <div class="uk-width-auto c1 uk-background-norepeat" data-src="imgs/bg_label.png" uk-img>
-                        <label for="">tướng</label>
-                    </div>
-                    <div class="uk-width-expand">
-                        <input class="uk-input" type="text" placeholder="" value="NGỘ KHÔNG">
-                    </div>
                 </div>
-            </div>
-            <div>
-                <div class="uk-grid-collapse lq-label-box" uk-grid>
-                    <div class="uk-width-auto c1 uk-background-norepeat" data-src="imgs/bg_label.png" uk-img>
-                        <label for="">skin</label>
-                    </div>
-                    <div class="uk-width-expand">
-                        <input class="uk-input" type="text" placeholder="" value="NGỘ KHÔNG KHÁ BẢNH">
-                    </div>
-                </div>
-            </div>
-            <?php
-            $data = array(
-                array(
-                    'title' => 'giá tiền',
-                    'option' => array(
-                        'TỪ 500K - 1 TRIỆU',
-                        'Trên 1 TRIỆU',
-                    ),
-                ),
-                array(
-                    'title' => 'rank',
-                    'option' => array(
-                        'thách đấu',
-                    ),
-                ),
-                array(
-                    'title' => 'đá quý',
-                    'option' => array(
-                        'không',
-                    ),
-                ),
-                array(
-                    'title' => 'ngọc 90',
-                    'option' => array(
-                        'có',
-                    ),
-                ),
-            );
-            foreach ($data as $k1 => $v1){ ?>
                 <div>
                     <div class="uk-grid-collapse lq-label-box" uk-grid>
                         <div class="uk-width-auto c1 uk-background-norepeat" data-src="imgs/bg_label.png" uk-img>
-                            <label for=""><?= $v1['title'] ?></label>
+                            <label class="uk-text-truncate" for="">tướng dai ra hai</label>
                         </div>
                         <div class="uk-width-expand">
-                            <div class="uk-width-1-1" uk-form-custom="target: > * > span:first-child">
-                                <select>
-                                    <?php foreach ($v1['option'] as $k2 => $v2){ ?>
-                                        <option value="<?= $k2 ?>"><?= $v2 ?></option>
-                                    <?php } ?>
-                                </select>
-                                <button class="uk-button uk-button-default uk-width-1-1 uk-text-truncate" type="button" tabindex="-1">
-                                    <span></span>
-                                    <img class="uk-position-center-right" src="imgs/icon_down.png" alt="">
-                                </button>
-                            </div>
+                            <input class="uk-input" type="text" placeholder="" value="NGỘ KHÔNG">
                         </div>
                     </div>
                 </div>
-            <?php } ?>
+                <div>
+                    <div class="uk-grid-collapse lq-label-box" uk-grid>
+                        <div class="uk-width-auto c1 uk-background-norepeat" data-src="imgs/bg_label.png" uk-img>
+                            <label class="uk-text-truncate" for="">skin</label>
+                        </div>
+                        <div class="uk-width-expand">
+                            <input class="uk-input" type="text" placeholder="" value="NGỘ KHÔNG KHÁ BẢNH">
+                        </div>
+                    </div>
+                </div>
+                <?php
+                $data = array(
+                    array(
+                        'title' => 'giá tiền',
+                        'option' => array(
+                            'TỪ 500K - 1 TRIỆU',
+                            'Trên 1 TRIỆU',
+                        ),
+                    ),
+                    array(
+                        'title' => 'rank',
+                        'option' => array(
+                            'thách đấu',
+                        ),
+                    ),
+                    array(
+                        'title' => 'đá quý',
+                        'option' => array(
+                            'không',
+                        ),
+                    ),
+                    array(
+                        'title' => 'ngọc 90',
+                        'option' => array(
+                            'có',
+                        ),
+                    ),
+                );
+                foreach ($data as $k1 => $v1){ ?>
+                    <div>
+                        <div class="uk-grid-collapse lq-label-box" uk-grid>
+                            <div class="uk-width-auto c1 uk-background-norepeat" data-src="imgs/bg_label.png" uk-img>
+                                <label class="uk-text-truncate" for=""><?= $v1['title'] ?></label>
+                            </div>
+                            <div class="uk-width-expand">
+                                <div class="uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                    <select>
+                                        <?php foreach ($v1['option'] as $k2 => $v2){ ?>
+                                            <option value="<?= $k2 ?>"><?= $v2 ?></option>
+                                        <?php } ?>
+                                    </select>
+                                    <button class="uk-button uk-button-default uk-width-1-1 uk-text-truncate" type="button" tabindex="-1">
+                                        <span></span>
+                                        <img class="uk-position-center-right" src="imgs/icon_down.png" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
         </div>
         <div class="uk-padding-large uk-height-viewport uk-background-norepeat" style="background-size: 100%" data-src="imgs/bg2.png" uk-img>
             <div class="uk-child-width-1-4@m uk-grid-small" uk-grid>
@@ -202,12 +204,12 @@
                             </div>
                             <div class="uk-position-bottom uk-background-norepeat lq-line" style="height: 9px; background-size: 100%" data-src="imgs/bg_sp.png" uk-img></div>
                         </div>
-                        <div class="uk-grid-small uk-child-width-1-2 uk-margin-medium-bottom lq-bottom" uk-grid>
+                        <div class="uk-grid-small uk-flex-center uk-child-width-1-2 uk-margin-medium-bottom lq-bottom" uk-grid>
                             <div>
-                                <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img>xem chi tiết</a>
+                                <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img><span>xem chi tiết</span></a>
                             </div>
                             <div>
-                                <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img>mua ngay</a>
+                                <a href="#" class="uk-button lq-btn1 uk-button-default uk-width-1-1 uk-background-norepeat uk-background-contain" style="" data-src="imgs/bg_btn1.png" uk-img><span>mua ngay</span></a>
                             </div>
                         </div>
                     </div>
