@@ -41,15 +41,25 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-background-cover" data-src="imgs/bg-body.jpg" uk-img>
+    <?php include('menu_mobile1.php'); ?>
     <nav id="lq-header" class="uk-navbar-container" uk-navbar uk-sticky>
 
         <div class="uk-navbar-left">
 
             <ul class="uk-navbar-nav">
-                <li class="uk-active"><a href="#">trang chủ</a></li>
-                <li><a href="#">nạp thẻ</a></li>
+                <li class="uk-hidden@s">
+                    <a href="#my-id" class="uk-navbar-toggle" uk-toggle="">
+                        <div id="m_nav_menu" class="m_nav menu">
+                            <div class="m_nav_ham button_closed" id="m_ham_1"></div>
+                            <div class="m_nav_ham button_closed" id="m_ham_2"></div>
+                            <div class="m_nav_ham button_closed" id="m_ham_3"></div>
+                        </div>
+                    </a>
+                </li>
+                <li class="uk-visible@s"><a href="#">trang chủ</a></li>
+                <li class="uk-visible@s"><a href="#">nạp thẻ</a></li>
                 <li class="uk-visible@m"><a href="#">hướng dẫn</a></li>
-                <li><a href="#">lịch sử</a></li>
+                <li class="uk-visible@s"><a href="#">lịch sử</a></li>
             </ul>
 
         </div>
@@ -57,7 +67,7 @@
         <div class="uk-navbar-right">
 
             <ul class="uk-navbar-nav">
-                <li>
+                <li class="uk-visible@s">
                     <div class="lq-login-regis">
                         <div>
                             <img src="imgs/user1.png" alt="">
