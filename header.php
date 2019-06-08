@@ -41,7 +41,7 @@
      theme_color="#24892d">
 </div>
 <section id="app" class="uk-height-viewport uk-offcanvas-content uk-background-cover" data-src="imgs/bg-body.jpg" uk-img>
-    <nav id="lq-header" class="uk-navbar-container" uk-navbar>
+    <nav id="lq-header" class="uk-navbar-container" uk-navbar uk-sticky>
 
         <div class="uk-navbar-left">
 
